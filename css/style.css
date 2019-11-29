@@ -962,3 +962,134 @@ button.button {
   ============================================================================================ */
 
 /*# sourceMappingURL=style.css.map */
+
+
+
+/* ********************************************* */
+
+.bc-green {
+  background-color: #c1faf5;
+}
+
+.pb64 {
+  padding-bottom: 64px;
+}
+
+svg {
+  z-index: 0;
+  position: absolute;
+  width: 100%;
+  margin-top: -160px;
+  height: 651px;
+}
+
+.title-container {
+  min-width: 300px;
+}
+
+.title-hero {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1;
+  letter-spacing: -0.1px;
+  color: #1d3f5a;
+}
+
+.caption-hero {
+  font-family: Roboto;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 1.36;
+  letter-spacing: -0.8px;
+  color: #1d3f5a;
+  width: 730px;
+  margin-bottom: 84px;
+}
+
+.caption-hero--right {
+  padding-left: 150px;
+}
+
+.dash-line {
+  width: 30px;
+  height: 1px;
+  border: solid 2px #1d3f5a;
+  margin-bottom: 24px;
+}
+
+.dash-line--right {
+  margin-left: calc(100% - 30px);
+}
+
+.w100 {
+  width: 100%;
+}
+
+.flex-left {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+.flex-right {
+  display: flex;
+  justify-content: right;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+}
+
+.list {
+  padding-left: 16px;
+  list-style-type:disc;
+}
+
+.z-index-top {
+  z-index: 5;
+}
+
+.investor-image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.investor-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-width: 384px;
+}
+
+.justify-content-space-around {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.map {
+  width: 350px;
+  height: 350px;
+}
+
+.address {
+  padding: 16px 0;
+}
+
+@media screen and (max-width: 768px) {
+  svg {
+    width: 250%;
+    height: 110vh;
+  }
+  body {
+    overflow-x: hidden;
+  }
+
+  .hero-banner {
+    display: flex;
+    justify-content: center;
+  }
+}
